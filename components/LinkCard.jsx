@@ -118,8 +118,8 @@ export default function LinkCard({ link }) {
         </div>
       </DrawerTrigger>
 
-      <DrawerContent className="rounded-t-[2rem] p-6 pb-10">
-        <div className="mx-auto max-w-sm mt-4 w-full">
+<DrawerContent className="rounded-t-[2rem] overflow-hidden p-6 pb-10">        
+  <div className="no-scrollbar mx-auto mt-4 min-h-0 w-full max-w-sm flex-1 overflow-y-auto overscroll-contain">
           <DrawerHeader className="px-0  pt-0">
             <div className="flex items-center justify-between">
               <DrawerTitle className="text-3xl font-black tracking-tighter">
@@ -164,10 +164,10 @@ export default function LinkCard({ link }) {
                 </p>
               </div>
 
-              <div className="py-4">
+              <div className="py-2">
                 <Button
                   asChild
-                  className="w-full bg-black text-white rounded-2xl h-16 font-bold text-lg shadow-xl active:scale-95 transition-all"
+                  className="w-full bg-black text-white rounded-2xl h-14 font-bold text-base shadow-xl active:scale-95 transition-all"
                 >
                   <a href={link.url} target="_blank" rel="noreferrer">
                     Open Resource <ExternalLink className="ml-2" size={20} />
@@ -178,18 +178,18 @@ export default function LinkCard({ link }) {
               <div className="grid grid-cols-2 gap-3 pt-6 border-t border-zinc-100">
                 <Button
                   variant="outline"
-                  className="rounded-2xl h-14 font-black tracking-tight text-sm border-zinc-200"
+                  className="rounded-2xl h-12 font-bold tracking-tight text-sm border-zinc-200"
                   onClick={() => setIsEditing(true)}
                 >
-                  <Pencil size={14} className="mr-2" /> EDIT
+                  <Pencil size={14} className="mr-0" /> Edit
                 </Button>
 
                 <Button
                   variant="outline"
                   onClick={handleDelete}
-                  className="rounded-2xl h-14 font-black tracking-tight text-sm border-red-100 text-red-500 hover:bg-red-50"
+                  className="rounded-2xl h-12 font-bold tracking-tight text-sm border-red-100 text-red-500 hover:bg-red-50"
                 >
-                  <Trash2 size={16} className="mr-2" /> DELETE
+                  <Trash2 size={16} className="mr-0" /> Delete
                 </Button>
               </div>
             </>
