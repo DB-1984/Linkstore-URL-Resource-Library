@@ -1,4 +1,3 @@
-
 # LinkStore
 
 **A full-stack bookmarking application built with Next.js 16, React 19 and MongoDB, featuring user authentication, tag-based organisation and searchable resources.**
@@ -7,9 +6,18 @@ LinkStore is a personal library for saving and organising useful URLs. Rather th
 
 The project was built to explore full-stack application development using Next.js, including authentication, database persistence, user-specific content and interactive frontend components.
 
-**[Try the Live App](https://linkstore-app.onrender.com/)** | **[Source Code](https://github.com/DB-1984/Linkstore-URL-Resource-Library)**
+**[Try the Live App](https://linkstore.davidbrandondev.com/)** | **[Source Code](https://github.com/DB-1984/linkstore-app.onrender.com)**
 
-*The live application is hosted on Render and may take a minute to become available after a period of inactivity.*
+---
+
+## Test Login
+
+Try the app using the shared demo account:
+
+- **Email:** test3@email.com
+- **Password:** 1234
+
+*This is a shared account. Please avoid entering personal information.*
 
 ---
 
@@ -130,13 +138,13 @@ This separates presentation and interaction logic into reusable components, whil
 Clone the repository:
 
 ```bash
-git clone https://github.com/DB-1984/Linkstore-URL-Resource-Library.git
+git clone https://github.com/DB-1984/linkstore-app.onrender.com.git
 ```
 
 Navigate into the project directory:
 
 ```bash
-cd Linkstore-URL-Resource-Library
+cd linkstore-app.onrender.com
 ```
 
 Install dependencies:
@@ -176,7 +184,8 @@ The project also reflects a broader interest in building software around everyda
 
 ## Links
 
-- **Live Application:** https://linkstore-app.onrender.com/
+- **Live Application:** https://linkstore.davidbrandondev.com/
 - **Video Demonstration:** https://www.youtube.com/watch?v=Z-iFv1SJNik
-- **Developer Portfolio:** https://david-brandon.onrender.com/
+- **Source Code:** https://github.com/DB-1984/linkstore-app.onrender.com
+- **Developer Portfolio:** https://davidbrandondev.com/
 - **GitHub Profile:** https://github.com/DB-1984
