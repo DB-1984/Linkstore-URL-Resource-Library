@@ -11,7 +11,7 @@ export const metadata = {
   },
   description:
     "Organize your favorite corners of the internet in one studio-grade dashboard.",
-  metadataBase: new URL("https://your-linkstore-app.com"),
+  metadataBase: new URL("https://linkstore.davidbrandondev.com"),
 };
 
 export default function RootLayout({ children }) {
